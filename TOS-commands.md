@@ -13,12 +13,14 @@
 [6 ACP](#6-acp)
 
 [7 BUDGET ADMINS](#7-budget-admins)
+
 [7.1 Rules](#7.1-rules)
+
 [7.2 Available commands](#7.2-available-commands)
 
 ## 1 Rules for FULL ADMINS
 
-When using these commands make sure to:
+- When using the ticket and map commands make sure to:
   - Tell other admins that you want to play a max ticket rounds
   - Not farm the server to death
   - Let others farm as well
