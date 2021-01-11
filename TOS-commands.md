@@ -1,36 +1,41 @@
 # Freaky Frikkers TOS/commands
 
-[1 Rules for FULL ADMINS](#1-rules)
+[1.1 Rules for FULL ADMINS](#1-1-rules)
 
-[2 Must read](#2-must-read)
+[1.2 Must read](#1-2-must-read)
 
-[3 ProconRulz - commands](#3-proconrulz-commands)
+[1.3 ProconRulz - commands](#1-3-proconrulz-commands)
 
-[4 Adkats - commands](#4-adkats-commands)
+[1.4 Adkats - commands](#1-4-adkats-commands)
 
-[5 VIP - commands](#5-vip-commands)
+[1.5 ACP](#1-5-acp)
 
-[6 ACP](#6-acp)
+[1.6 Locker](#1-6-locker)
 
-[7 BUDGET ADMINS](#7-budget-admins)
+[2 VIP - commands](#2-vip-commands)
 
-[7.1 Rules](#7.1-rules)
+[3 BUDGET ADMINS](#3-budget-admins)
 
-[7.2 Available commands](#7.2-available-commands)
+[3.1 Rules](#3-1-rules)
 
-## 1 Rules for FULL ADMINS
+[3.2 Available commands](#3-2-available-commands)
 
+[4 List of current admins](#4-admins)
+
+## 1 FULL ADMINS
+## 1-1 Rules
 - When using the ticket and map commands make sure to:
   - Tell other admins that you want to play a max ticket rounds
   - Not farm the server to death
   - Let others farm as well
 
-Be responsible with banning people. Idgaf about kicks, if people are annoying start with tban after that you could ban. Unless obvious cheaters they can get permd instantly. I'll mention adkats commands later.
+- Be responsible with banning people. Idgaf about kicks, if people are annoying start with tban after that you could ban. Unless obvious cheaters they can get permd instantly. I'll mention adkats commands later.
 
-Try to avoid to farm the server to dead mostly during the night if the server survives the night it's easy early farm for all of you.
+- Try to avoid to farm the server to dead mostly during the night if the server survives the night it's easy early farm for all of you.
+- Don't play 24/7 you're not alone.
 
 
-## 2 Must read
+## 1-2 Must read
 
 - When using ticket commands do it between rounds not during a rounds
 - Ticket count changes automatically to normal on round END
@@ -39,7 +44,7 @@ Try to avoid to farm the server to dead mostly during the night if the server su
 - Votemap will be enabled on every round start
 
 
-## 3 ProconRulz - commands
+## 1-3 ProconRulz commands
 | **Command** | **Description** |
 |:--:|:--:|
 | /tickets | Change tickets for the next round. This value can be between 50 and 400 (%) of the normal ticket count. (400 will be 3200 tickets). |
@@ -50,7 +55,7 @@ Try to avoid to farm the server to dead mostly during the night if the server su
 | /ttv   | Announces Matti's twitch channel in chat with link  |
 | /mapname  |  Sets the next map to "mapname" conquest large. This will also disable votemap to prevent the next map being overwritten. (Votemap gets enabled on next round automatically). <P> The following mapnames are possible: <P> /siege: Siege of Shanghai CQL <P> /lancang: Lancang Dam CQL <p> /hainan: Hainan resort CQL <p> /golmud: Golmud Railway CQL <P> /rogue: Rogue Transition CQL <P> /dawn: Dawnbreaker CQL <P> /zavod: Zavod 311 CQL <P> /paracel: Paracel Storm CQL <P> /locker: Operation Locker CQL <p> /rsiege: Siege of Shanghai RUSH <P> /rdawn: Dawnbreaker RUSH <P> /rlocker: Operation Locker RUSH <p> /rparacel: Paracel Storm RUSH|
 
-## 4 Adkats - commands
+## 1-4 Adkats commands
 All commands can be found here: [Adkats](https://github.com/AdKats/AdKats)
 I'll be going over the more useful ones for u.
 
@@ -75,15 +80,7 @@ I'll be going over the more useful ones for u.
 | !pull   | Forces the targeted player into your squad  |
 | !join   | Joins the squad of the targeted player  |
 
-## 5 VIP - commands
-
-| **Command** | **Description** |
-|:--:|:--:|
-| !lead  | Gives you squadleader of your current squad  |
-| !moveme   | Moves you to the other team   |
-| !killme   | Server admin kills you  |
-
-## 6 ACP
+## 1-5 ACP
 This is only for FULL ADMINS, budgets bois sorry but i won't activate your accounts.
 There is the possibility to acces the admin control panel of adkats: [ACP](http://acp.mattiboss.8s.nl/)
 
@@ -91,15 +88,30 @@ To register an account: [Register](https://acp.mattiboss.8s.nl/register)
 
 Once you have done that DM Matti so he can activate your account with the right permissions. Don't wait for an email to arrive since that function is broken.
 
+## 1-6 Locker
 
-## 7 BUDGET ADMINS
-### 7.1 Rules
+As full admin you won't be affected by any weapon rule apposed to the weapon enforcer.
+- Don't abuse this, people will start to cry real fast if you run shotguns
+- For minor things like M320 FB etc you can get away with just be careful and read chat with it.
+
+
+## 2 VIP commands
+
+| **Command** | **Description** |
+|:--:|:--:|
+| !lead  | Gives you squadleader of your current squad  |
+| !moveme   | Moves you to the other team   |
+| !killme   | Server admin kills you  |
+
+
+## 3 BUDGET ADMINS
+### 3-1 Rules
 
 Same rules as [1 Rules for FULL ADMINS](#1-rules-for-full-admins) except you guys lack the ability of changing maps and ticket counts.
 
 - Respect the full admins they are above you and thus have more power.
 
-### 7.2 Available commands
+### 3-2 Available commands
 The following commands are available to you:
 
 | **Command** | **Description** |
@@ -113,3 +125,20 @@ The following commands are available to you:
 | !accept | The in-game command used for accepting reports as confirmed.  |
 | !pull   | Forces the targeted player into your squad  |
 | !join   | Joins the squad of the targeted player  |
+
+## 4 Admins
+| **User** | **Accounts** | **Power level** |
+|:--:|:--:|:--:|
+| Matti | 	- MattiBoss999_TTV <P> -BetterGamer | Owner   |
+| Hydraz  |  -Synthogy <p> - 1bicmitchum | FULL ADMIN  |
+| Hawx  | -Zunnni  | FULL ADMIN |
+| Dalton |  -daltonfreak | FULL ADMIN |
+| GiX | -The_GiiiiiiiiiX  | FULL ADMIN  |
+| Calypso  | -That_Calypso-Guy  | FULL ADMIN  |
+| Paul   | -ManuaIWheeIchair <P> -69Minecrafter187  | FULL ADMIN   |
+| vITNE   |  -PapaBeard42069xD <P> -IntrovertPepega <p> -CurIyloop<P> | Papa beard  |
+| Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | BUDGET ADMIN  |
+| Pedro  | -DaddyPxdro  | BUDGET ADMIN  |
+| Elijot | -HalalMyMain  |  BUDGET ADMIN |
+| Snurre | -SnurrexD  |  BUDGET ADMIN |
+| lHawkee   | -IHawkee <P> -T13_Booomer  | BUDGET ADMIN  |
