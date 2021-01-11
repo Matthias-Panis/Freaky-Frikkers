@@ -22,6 +22,8 @@
 
 [4 List of current admins](#4-admins)
 
+[5 Punishments](#5-punishments)
+
 ## 1 FULL ADMINS
 ## 1-1 Rules
 - When using the ticket and map commands make sure to:
@@ -151,4 +153,10 @@ The following commands are available to you:
 - The order of the same power level doesn't really matter but you get the idea
 - OWNER > FULL ADMIN > PAPA BEARD > BUDGET ADMIN
 
-*Happy farming* :)
+## 5 Punishments
+
+- Ignoring these specified rules can get you kicked from the Server
+- Repeatedly violating these rules might even get you temp banned
+- Matti always has the last word.
+
+*Happy farming :)*
