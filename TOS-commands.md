@@ -93,7 +93,7 @@ Once you have done that DM Matti so he can activate your account with the right 
 ## 7 BUDGET ADMINS
 ### 7.1 Rules
 
-Same rules as [1 Rules for FULL ADMINS](#1-rules-for-FULL-ADMINS) except you guys lack the ability of changing maps and ticket counts.
+Same rules as [1 Rules for FULL ADMINS](#1-rules-for-full-admins) except you guys lack the ability of changing maps and ticket counts.
 
 - Respect the full admins they are above you and thus have more power.
 
