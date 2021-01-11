@@ -142,3 +142,9 @@ The following commands are available to you:
 | Elijot | -HalalMyMain  |  BUDGET ADMIN |
 | Snurre | -SnurrexD  |  BUDGET ADMIN |
 | lHawkee   | -IHawkee <P> -T13_Booomer  | BUDGET ADMIN  |
+
+- Respect the hierarchy
+- The order of the same power level doesn't really matter but you get the idea
+- OWNER > FULL ADMIN > PAPA BEARD > BUDGET ADMIN
+
+*Happy farming* :)
