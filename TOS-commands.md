@@ -54,6 +54,8 @@
 | /yt   | Announces Matti's youtube channel in chat with link  |
 | /ttv   | Announces Matti's twitch channel in chat with link  |
 | /mapname  |  Sets the next map to "mapname" conquest large. This will also disable votemap to prevent the next map being overwritten. (Votemap gets enabled on next round automatically). <P> The following mapnames are possible: <P> /siege: Siege of Shanghai CQL <P> /lancang: Lancang Dam CQL <p> /hainan: Hainan resort CQL <p> /golmud: Golmud Railway CQL <P> /rogue: Rogue Transition CQL <P> /dawn: Dawnbreaker CQL <P> /zavod: Zavod 311 CQL <P> /paracel: Paracel Storm CQL <P> /locker: Operation Locker CQL <p> /rsiege: Siege of Shanghai RUSH <P> /rdawn: Dawnbreaker RUSH <P> /rlocker: Operation Locker RUSH <p> /rparacel: Paracel Storm RUSH|
+| /nextmap   | Runs next round<P> **Use this only in a empty server to switch to a seeding map**  |
+| /restart   | Restarts rounds<P> **Use this only in a empty server to switch to a seeding map** |
 
 ## 1-4 Adkats commands
 All commands can be found here: [Adkats](https://github.com/AdKats/AdKats)
@@ -81,12 +83,14 @@ I'll be going over the more useful ones for u.
 | !join   | Joins the squad of the targeted player  |
 
 ## 1-5 ACP
-This is only for FULL ADMINS, budgets bois sorry but i won't activate your accounts.
+
+*This is only for FULL ADMINS, budget bois sorry but i won't activate your accounts.*
+
 There is the possibility to acces the admin control panel of adkats: [ACP](http://acp.mattiboss.8s.nl/)
 
 To register an account: [Register](https://acp.mattiboss.8s.nl/register)
 
-Once you have done that DM Matti so he can activate your account with the right permissions. Don't wait for an email to arrive since that function is broken.
+Once you have done that DM Matti#9999 so he can activate your account with the right permissions. Don't wait for an email to arrive since that function is broken.
 
 ## 1-6 Locker
 
@@ -129,8 +133,8 @@ The following commands are available to you:
 ## 4 Admins
 | **User** | **Accounts** | **Power level** |
 |:--:|:--:|:--:|
-| Matti | 	- MattiBoss999_TTV <P> -BetterGamer | Owner   |
-| Hydraz  |  -Synthogy <p> - 1bicmitchum | FULL ADMIN  |
+| Matti | 	- MattiBoss999_TTV <P> -BetterGamer <P> -MattiBoss9999 | Owner   |
+| Hydraz  |  -Synthogy <p> -1bicmitchum <p> -1hydraz <P> -SynthGoLive| FULL ADMIN  |
 | Hawx  | -Zunnni  | FULL ADMIN |
 | Dalton |  -daltonfreak | FULL ADMIN |
 | GiX | -The_GiiiiiiiiiX  | FULL ADMIN  |
