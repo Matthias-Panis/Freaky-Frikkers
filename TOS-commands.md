@@ -1,0 +1,113 @@
+# Freaky Frikkers TOS/commands
+
+[1 Rules for FULL ADMINS](#1-rules)
+
+[2 Must read](#2-must-read)
+
+[3 ProconRulz - commands](#3-proconrulz-commands)
+
+[4 Adkats - commands](#4-adkats-commands)
+
+[5 VIP - commands](#5-vip-commands)
+
+[6 ACP](#6-acp)
+
+[7 BUDGET ADMINS](#7-budget-admins)
+[7.1 Rules](#7.1-rules)
+[7.2 Available commands](#7.2-available-commands)
+
+## 1 Rules for FULL ADMINS
+
+When using these commands make sure to:
+  - Tell other admins that you want to play a max ticket rounds
+  - Not farm the server to death
+  - Let others farm as well
+
+Be responsible with banning people. Idgaf about kicks, if people are annoying start with tban after that you could ban. Unless obvious cheaters they can get permd instantly. I'll mention adkats commands later.
+
+Try to avoid to farm the server to dead mostly during the night if the server survives the night it's easy early farm for all of you.
+
+
+## 2 Must read
+
+- When using ticket commands do it between rounds not during a rounds
+- Ticket count changes automatically to normal on round END
+- Changing to a map needs to be done to maps that are currently in the maplist, if they are not the command won't work.
+- Votemap will be disabled if you change the next map
+- Votemap will be enabled on every round start
+
+
+## 3 ProconRulz - commands
+| **Command** | **Description** |
+|:--:|:--:|
+| /tickets | Change tickets for the next round. This value can be between 50 and 400 (%) of the normal ticket count. (400 will be 3200 tickets). |
+| /3200   | Will straight up set the tickets to the max value that being 3200 tickets for the next round.  |
+| /vdisable   | This will turn off votemap for one round.|
+| /venable   | This will turn on votemap.|
+| /yt   | Announces Matti's youtube channel in chat with link  |
+| /ttv   | Announces Matti's twitch channel in chat with link  |
+| /mapname  |  Sets the next map to "mapname" conquest large. This will also disable votemap to prevent the next map being overwritten. (Votemap gets enabled on next round automatically). <P> The following mapnames are possible: <P> /siege: Siege of Shanghai CQL <P> /lancang: Lancang Dam CQL <p> /hainan: Hainan resort CQL <p> /golmud: Golmud Railway CQL <P> /rogue: Rogue Transition CQL <P> /dawn: Dawnbreaker CQL <P> /zavod: Zavod 311 CQL <P> /paracel: Paracel Storm CQL <P> /locker: Operation Locker CQL <p> /rsiege: Siege of Shanghai RUSH <P> /rdawn: Dawnbreaker RUSH <P> /rlocker: Operation Locker RUSH <p> /rparacel: Paracel Storm RUSH|
+
+## 4 Adkats - commands
+All commands can be found here: [Adkats](https://github.com/AdKats/AdKats)
+I'll be going over the more useful ones for u.
+
+**Using a command without any name or reason will result into the command being used on yourself (self-inflicted)**
+
+| **Command** | **Description** |
+|:--:|:--:|
+| !ban  | Permanently bans the targeted player  |
+| !tban60  | Temp-Ban 1 hour	  |
+| !tban120  | Temp-Ban 2 hour  |
+| !tbanday   |  Temp-Ban 1 Day |
+| !tbanweek  |  Temp-Ban 1 Week |
+| !tbanmonth  | Temp-Ban 1 Month	|
+| !kick   | Kicks the targeted player  |
+| !kill   | Kills the targeted player  |
+| !move   | Moves targeted player to the opposite team when the player is dead |
+| !fmove   | Moves targeted player inmediatly to the opposite team  |
+| !mute   | Mutes the targeted player for 1 round  || !nuke   | Nukes the targeted team for x seconds  |
+| !punish   |  The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value. |
+| !accept   |  The in-game command used for accepting reports as confirmed. |
+| !reportlist   |  The in-game command used to get the latest 6 unanswered round reports. |
+| !pull   | Forces the targeted player into your squad  |
+| !join   | Joins the squad of the targeted player  |
+
+## 5 VIP - commands
+
+| **Command** | **Description** |
+|:--:|:--:|
+| !lead  | Gives you squadleader of your current squad  |
+| !moveme   | Moves you to the other team   |
+| !killme   | Server admin kills you  |
+
+## 6 ACP
+This is only for FULL ADMINS, budgets bois sorry but i won't activate your accounts.
+There is the possibility to acces the admin control panel of adkats: [ACP](http://acp.mattiboss.8s.nl/)
+
+To register an account: [Register](https://acp.mattiboss.8s.nl/register)
+
+Once you have done that DM Matti so he can activate your account with the right permissions. Don't wait for an email to arrive since that function is broken.
+
+
+## 7 BUDGET ADMINS
+### 7.1 Rules
+
+Same rules as [1 Rules for FULL ADMINS](#1-rules-for-FULL-ADMINS) except you guys lack the ability of changing maps and ticket counts.
+
+- Respect the full admins they are above you and thus have more power.
+
+### 7.2 Available commands
+The following commands are available to you:
+
+| **Command** | **Description** |
+|:--:|:--:|
+| !kill | Kills the targeted player  |
+| !kick | Kills the targeted player  |
+| !punish  | The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value.    |
+| !mute | Mutes the targeted player for 1 round  |
+| !move | Moves targeted player to the opposite team when the player is dead |
+| !fmove | Moves targeted player inmediatly to the opposite team  |
+| !accept | The in-game command used for accepting reports as confirmed.  |
+| !pull   | Forces the targeted player into your squad  |
+| !join   | Joins the squad of the targeted player  |
