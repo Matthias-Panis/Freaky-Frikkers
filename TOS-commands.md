@@ -29,7 +29,14 @@
 - When using the ticket and map commands make sure to:
   - Tell other admins that you want to play a max/higher ticket round
   - Not farm the server to death
-  - Let others farm as well
+    - You can farm on prime hours it doesn't really impact the server that much even tho it might drop a few players.
+    - At most it drops to like 40 players and depending on map will take a bit to fil up
+    - Fully killing it during these times doesn't happen often if ever
+  - Let others farm as well.
+
+- Respect the ones that helped getting the server started that day. You waste a lot of time by doing it. This doesn't mean however that you can play the entire evening without anyone else having a good farm round. Not everyone has the time to put into starting the server and just want a good game of BF4.(This comes down to communication again)
+
+- Any conflict can be avoided by simply stating your intensions if you see someone already playing.
 
 - Be responsible with banning people. Idgaf about kicks, if people are annoying start with tban after that you could ban. Unless obvious cheaters they can get permd instantly. I'll mention adkats commands later.
 
