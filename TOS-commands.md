@@ -27,7 +27,7 @@
 ## 1 FULL ADMINS
 ## 1-1 Rules
 - When using the ticket and map commands make sure to:
-  - Tell other admins that you want to play a max ticket rounds
+  - Tell other admins that you want to play a max/higher ticket round
   - Not farm the server to death
   - Let others farm as well
 
