@@ -99,8 +99,11 @@ Once you have done that DM Matti#9999 so he can activate your account with the r
 As full admin you won't be affected by any weapon rule apposed to the weapon enforcer.
 - Don't abuse this, people will start to cry real fast if you run shotguns
 - For minor things like M320 FB etc you can get away with just be careful and read chat with it.
-
-
+- I do forbid using shotguns if there's another admin in the opposite team.
+- Balancing is hard since there are 2 factors tickets / Flags
+  - Try to avoid a full base rape *regardless of the amount of tickets*
+  - Don't all switch to one team as this inbalances things in the other way.
+  - Be smart about balancing, i get that it's not easy but everyone knows how good an individual is.
 ## 2 VIP commands
 
 | **Command** | **Description** |
