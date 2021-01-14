@@ -35,6 +35,7 @@
 
 - Try to avoid to farm the server to dead mostly during the night if the server survives the night it's easy early farm for all of you.
 - Don't play 24/7 you're not alone.
+- **Vehicle peace** or **air peace** won't be tolerated anymore. It is nice to both farm but it can kill a server real quick. If i or other FULL ADMINS see it happening you risk getting kicked.
 
 
 ## 1-2 Must read
