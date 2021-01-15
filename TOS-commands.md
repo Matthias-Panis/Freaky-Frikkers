@@ -26,11 +26,11 @@
 
 [6 Banning](#6-banning)
 
-[6.1 Punishments](#6-1-cheaters)
+[6.1 Cheaters](#6-1-cheaters)
 
-[6.2 Punishments](#6-2-ban-appeals)
+[6.2 Ban Appeals](#6-2-ban-appeals)
 
-[6.3 Punishments](#6-3-anticheat-script)
+[6.3 Anticheat Script](#6-3-anticheat-script)
 
 ## 1 FULL ADMINS
 ## 1-1 Rules
