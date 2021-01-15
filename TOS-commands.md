@@ -24,8 +24,21 @@
 
 [5 Punishments](#5-punishments)
 
+[6 Banning](#6-banning)
+
+[6.1 Punishments](#6-1-cheaters)
+
+[6.2 Punishments](#6-2-ban-appeals)
+
+[6.3 Punishments](#6-3-anticheat-script)
+
 ## 1 FULL ADMINS
 ## 1-1 Rules
+**COMMUNICATION**
+*I'm giving you guys basically free reign over the server, i really don't want to be dealing with your personal problems if it isn't in TOS. The fact that i needed to make this as well is kinda WeirdChamp.*
+
+- Respect the ones that helped getting the server started that day. You waste a lot of time by doing it. This doesn't mean however that you can play the entire evening without anyone else having a good farm round. Not everyone has the time to put into starting the server and just want a good game of BF4.(This comes down to communication again)
+
 - When using the ticket and map commands make sure to:
   - Tell other admins that you want to play a max/higher ticket round
   - Not farm the server to death
@@ -33,8 +46,6 @@
     - At most it drops to like 40 players and depending on map will take a bit to fil up
     - Fully killing it during these times doesn't happen often if ever
   - Let others farm as well.
-
-- Respect the ones that helped getting the server started that day. You waste a lot of time by doing it. This doesn't mean however that you can play the entire evening without anyone else having a good farm round. Not everyone has the time to put into starting the server and just want a good game of BF4.(This comes down to communication again)
 
 - Any conflict can be avoided by simply stating your intensions if you see someone already playing.
 
@@ -170,5 +181,28 @@ The following commands are available to you:
 - Ignoring these specified rules can get you kicked from the Server
 - Repeatedly violating these rules might even get you temp banned
 - Matti always has the last word.
+
+## 6 Banning
+### 6-1 Cheaters
+
+This is somewhat a guideline as we don't run any anti cheat for obvious reasons. I'm a forgiving person, i give DB banned people a 2nd chance here. If however that trust is violated the chances of u getting a unban is nearly non existent. (This applies to all cheaters)
+
+Rage hackers and obvious cheaters can be deported instantly. If however it's subtle or you suspect someone to be cheating.
+  - Check BF4DB
+  - Check stats etc
+If you're convinced DM Matti. I'll be the deciding factor.
+
+### 6-2 Ban appeals
+
+The person that banned the victim will be the deciding factor in a unban. Rage bans handed out will probably get unbanned by me whenever i check the ban list.
+The ban appeals is also what usually keeps all of you entertained so yes have fun.
+
+**In case of an actual cheater**
+
+Give them a 2nd chance but once that's violated well hahahahahahahahah gone. It also depends on how bad it was.
+
+### 6-3 Anticheat Script
+
+This will catch most rage hackers. The way it works it checks "DPS", "HSKR" and "KPM". If you get banned for it just dm i'll whitelist. It's somewhat adjusted to high stats but it could happen it still bans.
 
 *Happy farming :)*
