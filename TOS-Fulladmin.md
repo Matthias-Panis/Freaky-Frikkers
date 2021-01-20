@@ -15,23 +15,17 @@
 
 [2 VIP - commands](#2-vip-commands)
 
-[3 BUDGET ADMINS](#3-budget-admins)
+[3 List of current admins](#3-admins)
 
-[3.1 Rules](#3-1-rules)
+[4 Punishments](#4-punishments)
 
-[3.2 Available commands](#3-2-available-commands)
+[5 Banning](#5-banning)
 
-[4 List of current admins](#4-admins)
+[5.1 Cheaters](#5-1-cheaters)
 
-[5 Punishments](#5-punishments)
+[5.2 Ban Appeals](#5-2-ban-appeals)
 
-[6 Banning](#6-banning)
-
-[6.1 Cheaters](#6-1-cheaters)
-
-[6.2 Ban Appeals](#6-2-ban-appeals)
-
-[6.3 Anticheat Script](#6-3-anticheat-script)
+[5.3 Anticheat Script](#5-3-anticheat-script)
 
 ## 1 FULL ADMINS
 ## 1-1 Rules
@@ -136,30 +130,7 @@ As full admin you won't be affected by any weapon rule apposed to the weapon enf
 | !moveme   | Moves you to the other team   |
 | !killme   | Server admin kills you  |
 
-
-## 3 BUDGET ADMINS
-### 3-1 Rules
-
-Same rules as [Rules for FULL ADMINS](#1-1-rules) except you guys lack the ability of changing maps and ticket counts.
-
-- Respect the full admins they are above you and thus have more power.
-
-### 3-2 Available commands
-The following commands are available to you:
-
-| **Command** | **Description** |
-|:--:|:--:|
-| !kill | Kills the targeted player  |
-| !kick | Kills the targeted player  |
-| !punish  | The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value.    |
-| !mute | Mutes the targeted player for 1 round  |
-| !move | Moves targeted player to the opposite team when the player is dead |
-| !fmove | Moves targeted player inmediatly to the opposite team  |
-| !accept | The in-game command used for accepting reports as confirmed.  |
-| !pull   | Forces the targeted player into your squad  |
-| !join   | Joins the squad of the targeted player  |
-
-## 4 Admins
+## 3 Admins
 | **User** | **Accounts** | **Power level** |
 |:--:|:--:|:--:|
 | Matti | 	- MattiBoss999_TTV <P> -BetterGamer <P> -MattiBoss9999 | Owner   |
@@ -179,14 +150,14 @@ The following commands are available to you:
 - The order of the same power level doesn't really matter but you get the idea
 - OWNER > FULL ADMIN > PAPA BEARD > BUDGET ADMIN
 
-## 5 Punishments
+## 4 Punishments
 
 >   **1**  Ignoring these specified rules can get you kicked from the Server
 >   **2**  Repeatedly violating these rules might even get you temp banned
 >   **3**  Matti always has the last word.
 
-## 6 Banning
-### 6-1 Cheaters
+## 5 Banning
+### 5-1 Cheaters
 
 This is somewhat a guideline as we don't run any anti cheat for obvious reasons. I'm a forgiving person, i give DB banned people a 2nd chance here. If however that trust is violated the chances of u getting a unban is nearly non existent. (This applies to all cheaters)
 
@@ -195,7 +166,7 @@ Rage hackers and obvious cheaters can be deported instantly. If however it's sub
 >   **2** Check stats etc
 **If** you are convinced DM Matti. I'll be the deciding factor.
 
-### 6-2 Ban appeals
+### 5-2 Ban appeals
 
 The person that banned the victim will be the deciding factor in a unban. Rage bans handed out will probably get unbanned by me whenever i check the ban list.
 The ban appeals is also what usually keeps all of you entertained so yes have fun.
@@ -204,7 +175,7 @@ The ban appeals is also what usually keeps all of you entertained so yes have fu
 
 Give them a 2nd chance but once that's violated well hahahahahahahahah gone. It also depends on how bad it was.
 
-### 6-3 Anticheat Script
+### 5-3 Anticheat Script
 
 This will catch most rage hackers. The way it works it checks "DPS", "HSKR" and "KPM". If you get banned for it just dm i'll whitelist. It's somewhat adjusted to high stats but it could happen it still bans.
 
