@@ -83,14 +83,16 @@ I'll be going over the more useful ones for u.
 
 **Using a command without any name or reason will result into the command being used on yourself (self-inflicted)**
 
+**Remember that the tban commands need a space between /tban and the time example !tban 120 !tban 60**
+
 | **Command** | **Description** |
 |:--:|:--:|
 | !ban  | Permanently bans the targeted player  |
-| !tban60  | Temp-Ban 1 hour	  |
-| !tban120  | Temp-Ban 2 hour  |
-| !tbanday   |  Temp-Ban 1 Day |
-| !tbanweek  |  Temp-Ban 1 Week |
-| !tbanmonth  | Temp-Ban 1 Month	|
+| !tban 60  | Temp-Ban 1 hour	  |
+| !tban 120  | Temp-Ban 2 hour  |
+| !tban day   |  Temp-Ban 1 Day |
+| !tban week  |  Temp-Ban 1 Week |
+| !tban month  | Temp-Ban 1 Month	|
 | !kick   | Kicks the targeted player  |
 | !kill   | Kills the targeted player  |
 | !move   | Moves targeted player to the opposite team when the player is dead |
