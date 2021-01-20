@@ -1,0 +1,686 @@
+<!DOCTYPE html><html><head>
+      <title>TOS-commands</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///C:\Users\matth\.atom\packages\markdown-preview-enhanced\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <p><img src="../Freaky-Frikkers/Images/BF4.png" alt="BF4 LOGO"></p>
+<h1 class="mume-header" id="freaky-frikkers-tos">Freaky Frikkers TOS</h1>
+
+<p><a href="#1-1-rules">1.1 Rules for FULL ADMINS</a></p>
+<p><a href="#1-2-must-read">1.2 Must read</a></p>
+<p><a href="#1-3-proconrulz-commands">1.3 ProconRulz - commands</a></p>
+<p><a href="#1-4-adkats-commands">1.4 Adkats - commands</a></p>
+<p><a href="#1-5-acp">1.5 ACP</a></p>
+<p><a href="#1-6-locker">1.6 Locker</a></p>
+<p><a href="#2-vip-commands">2 VIP - commands</a></p>
+<p><a href="#3-budget-admins">3 BUDGET ADMINS</a></p>
+<p><a href="#3-1-rules">3.1 Rules</a></p>
+<p><a href="#3-2-available-commands">3.2 Available commands</a></p>
+<p><a href="#4-admins">4 List of current admins</a></p>
+<p><a href="#5-punishments">5 Punishments</a></p>
+<p><a href="#6-banning">6 Banning</a></p>
+<p><a href="#6-1-cheaters">6.1 Cheaters</a></p>
+<p><a href="#6-2-ban-appeals">6.2 Ban Appeals</a></p>
+<p><a href="#6-3-anticheat-script">6.3 Anticheat Script</a></p>
+<h2 class="mume-header" id="1-full-admins">1 FULL ADMINS</h2>
+
+<h2 class="mume-header" id="1-1-rules">1-1 Rules</h2>
+
+<p><strong>COMMUNICATION</strong><br>
+<em>I'm giving you guys basically free reign over the server, i really don't want to be dealing with your personal problems if it isn't in TOS. The fact that i needed to make this as well is kinda WeirdChamp.</em></p>
+<ul>
+<li>
+<p>Respect the ones that helped getting the server started that day. You waste a lot of time by doing it. This doesn't mean however that you can play the entire evening without anyone else having a good farm round. Not everyone has the time to put into starting the server and just want a good game of BF4.(This comes down to communication again)</p>
+</li>
+<li>
+<p>When using the ticket and map commands make sure to:</p>
+<ul>
+<li>Tell other admins that you want to play a max/higher ticket round</li>
+<li>Not farm the server to death
+<ul>
+<li>You can farm on prime hours it doesn't really impact the server that much even tho it might drop a few players.</li>
+<li>At most it drops to like 40 players and depending on map will take a bit to fil up</li>
+<li>Fully killing it during these times doesn't happen often if ever</li>
+</ul>
+</li>
+<li>Let others farm as well.</li>
+</ul>
+</li>
+<li>
+<p>Any conflict can be avoided by simply stating your intensions if you see someone already playing.</p>
+</li>
+<li>
+<p>Be responsible with banning people. Idgaf about kicks, if people are annoying start with tban after that you could ban. Unless obvious cheaters they can get permd instantly. I'll mention adkats commands later.</p>
+</li>
+<li>
+<p>Try to avoid to farm the server to dead mostly during the night if the server survives the night it's easy early farm for all of you.</p>
+</li>
+<li>
+<p>Don't play 24/7 you're not alone.</p>
+</li>
+<li>
+<p><strong>Vehicle peace</strong> or <strong>air peace</strong> won't be tolerated anymore. It is nice to both farm but it can kill a server real quick. If i or other FULL ADMINS see it happening you risk getting kicked.</p>
+</li>
+<li>
+<p>Be reasonable, don't let your hatred or lack of skill get the better of you...</p>
+</li>
+</ul>
+<h2 class="mume-header" id="1-2-must-read">1-2 Must read</h2>
+
+<ul>
+<li>When using ticket commands do it between rounds not during a rounds</li>
+<li>Ticket count changes automatically to normal on round END</li>
+<li>Changing to a map needs to be done to maps that are currently in the maplist, if they are not the command won't work.</li>
+<li>Votemap will be disabled if you change the next map</li>
+<li>Votemap will be enabled on every round start</li>
+</ul>
+<h2 class="mume-header" id="1-3-proconrulz-commands">1-3 ProconRulz commands</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Command</strong></th>
+<th style="text-align:center"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">/tickets</td>
+<td style="text-align:center">Change tickets for the next round. This value can be between 50 and 400 (%) of the normal ticket count. (400 will be 3200 tickets).</td>
+</tr>
+<tr>
+<td style="text-align:center">/3200</td>
+<td style="text-align:center">Will straight up set the tickets to the max value that being 3200 tickets for the next round.</td>
+</tr>
+<tr>
+<td style="text-align:center">/vdisable</td>
+<td style="text-align:center">This will turn off votemap for one round.</td>
+</tr>
+<tr>
+<td style="text-align:center">/venable</td>
+<td style="text-align:center">This will turn on votemap.</td>
+</tr>
+<tr>
+<td style="text-align:center">/yt</td>
+<td style="text-align:center">Announces Matti's youtube channel in chat with link</td>
+</tr>
+<tr>
+<td style="text-align:center">/ttv</td>
+<td style="text-align:center">Announces Matti's twitch channel in chat with link</td>
+</tr>
+<tr>
+<td style="text-align:center">/mapname</td>
+<td style="text-align:center">Sets the next map to "mapname" conquest large. This will also disable votemap to prevent the next map being overwritten. (Votemap gets enabled on next round automatically). <p> The following mapnames are possible: </p><p> /siege: Siege of Shanghai CQL </p><p> /lancang: Lancang Dam CQL </p><p> /hainan: Hainan resort CQL </p><p> /golmud: Golmud Railway CQL </p><p> /rogue: Rogue Transition CQL </p><p> /dawn: Dawnbreaker CQL </p><p> /zavod: Zavod 311 CQL </p><p> /paracel: Paracel Storm CQL </p><p> /locker: Operation Locker CQL </p><p> /rsiege: Siege of Shanghai RUSH </p><p> /rdawn: Dawnbreaker RUSH </p><p> /rlocker: Operation Locker RUSH </p><p> /rparacel: Paracel Storm RUSH</p></td>
+</tr>
+<tr>
+<td style="text-align:center">/nextmap</td>
+<td style="text-align:center">Runs next round<p> <strong>Use this only in a empty server to switch to a seeding map</strong></p></td>
+</tr>
+<tr>
+<td style="text-align:center">/restart</td>
+<td style="text-align:center">Restarts rounds<p> <strong>Use this only in a empty server to switch to a seeding map</strong></p></td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="1-4-adkats-commands">1-4 Adkats commands</h2>
+
+<p>
+</p><p><img src="../Freaky-Frikkers/Images/adkats.png" alt="Adkats"><br>
+All commands can be found here: <a href="https://github.com/AdKats/AdKats">Adkats</a><br>
+I'll be going over the more useful ones for u.</p>
+<p><strong>Using a command without any name or reason will result into the command being used on yourself (self-inflicted)</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Command</strong></th>
+<th style="text-align:center"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">!ban</td>
+<td style="text-align:center">Permanently bans the targeted player</td>
+</tr>
+<tr>
+<td style="text-align:center">!tban60</td>
+<td style="text-align:center">Temp-Ban 1 hour</td>
+</tr>
+<tr>
+<td style="text-align:center">!tban120</td>
+<td style="text-align:center">Temp-Ban 2 hour</td>
+</tr>
+<tr>
+<td style="text-align:center">!tbanday</td>
+<td style="text-align:center">Temp-Ban 1 Day</td>
+</tr>
+<tr>
+<td style="text-align:center">!tbanweek</td>
+<td style="text-align:center">Temp-Ban 1 Week</td>
+</tr>
+<tr>
+<td style="text-align:center">!tbanmonth</td>
+<td style="text-align:center">Temp-Ban 1 Month</td>
+</tr>
+<tr>
+<td style="text-align:center">!kick</td>
+<td style="text-align:center">Kicks the targeted player</td>
+</tr>
+<tr>
+<td style="text-align:center">!kill</td>
+<td style="text-align:center">Kills the targeted player</td>
+</tr>
+<tr>
+<td style="text-align:center">!move</td>
+<td style="text-align:center">Moves targeted player to the opposite team when the player is dead</td>
+</tr>
+<tr>
+<td style="text-align:center">!fmove</td>
+<td style="text-align:center">Moves targeted player inmediatly to the opposite team</td>
+</tr>
+<tr>
+<td style="text-align:center">!mute</td>
+<td style="text-align:center">Mutes the targeted player for 1 round</td>
+</tr>
+<tr>
+<td style="text-align:center">!punish</td>
+<td style="text-align:center">The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value.</td>
+</tr>
+<tr>
+<td style="text-align:center">!accept</td>
+<td style="text-align:center">The in-game command used for accepting reports as confirmed.</td>
+</tr>
+<tr>
+<td style="text-align:center">!reportlist</td>
+<td style="text-align:center">The in-game command used to get the latest 6 unanswered round reports.</td>
+</tr>
+<tr>
+<td style="text-align:center">!pull</td>
+<td style="text-align:center">Forces the targeted player into your squad</td>
+</tr>
+<tr>
+<td style="text-align:center">!join</td>
+<td style="text-align:center">Joins the squad of the targeted player</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="1-5-acp">1-5 ACP</h2>
+
+<p><em>This is only for FULL ADMINS, budget bois sorry but i won't activate your accounts.</em></p>
+<p>There is the possibility to acces the admin control panel of adkats: <a href="http://acp.mattiboss.8s.nl/">ACP</a></p>
+<p>To register an account: <a href="https://acp.mattiboss.8s.nl/register">Register</a><br>
+<img src="../Freaky-Frikkers/Images/acpregister.png" alt="ACP Regsiter"><br>
+Once you have done that DM Matti#9999 so he can activate your account with the right permissions. Don't wait for an email to arrive since that function is broken.</p>
+<h2 class="mume-header" id="1-6-locker">1-6 Locker</h2>
+
+<p>As full admin you won't be affected by any weapon rule apposed to the weapon enforcer.</p>
+<ul>
+<li>Don't abuse this, people will start to cry real fast if you run shotguns</li>
+<li>For minor things like M320 FB etc you can get away with just be careful and read chat with it.</li>
+<li>I do forbid using shotguns if there's another admin in the opposite team.</li>
+<li>Balancing is hard since there are 2 factors tickets / Flags
+<ul>
+<li>Try to avoid a full base rape <em>regardless of the amount of tickets</em></li>
+<li>Don't all switch to one team as this inbalances things in the other way.</li>
+<li>Be smart about balancing, i get that it's not easy but everyone knows how good an individual is.</li>
+</ul>
+</li>
+</ul>
+<h2 class="mume-header" id="2-vip-commands">2 VIP commands</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Command</strong></th>
+<th style="text-align:center"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">!lead</td>
+<td style="text-align:center">Gives you squadleader of your current squad</td>
+</tr>
+<tr>
+<td style="text-align:center">!moveme</td>
+<td style="text-align:center">Moves you to the other team</td>
+</tr>
+<tr>
+<td style="text-align:center">!killme</td>
+<td style="text-align:center">Server admin kills you</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="3-budget-admins">3 BUDGET ADMINS</h2>
+
+<h3 class="mume-header" id="3-1-rules">3-1 Rules</h3>
+
+<p>Same rules as <a href="#1-1-rules">Rules for FULL ADMINS</a> except you guys lack the ability of changing maps and ticket counts.</p>
+<ul>
+<li>Respect the full admins they are above you and thus have more power.</li>
+</ul>
+<h3 class="mume-header" id="3-2-available-commands">3-2 Available commands</h3>
+
+<p>The following commands are available to you:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Command</strong></th>
+<th style="text-align:center"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">!kill</td>
+<td style="text-align:center">Kills the targeted player</td>
+</tr>
+<tr>
+<td style="text-align:center">!kick</td>
+<td style="text-align:center">Kills the targeted player</td>
+</tr>
+<tr>
+<td style="text-align:center">!punish</td>
+<td style="text-align:center">The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value.</td>
+</tr>
+<tr>
+<td style="text-align:center">!mute</td>
+<td style="text-align:center">Mutes the targeted player for 1 round</td>
+</tr>
+<tr>
+<td style="text-align:center">!move</td>
+<td style="text-align:center">Moves targeted player to the opposite team when the player is dead</td>
+</tr>
+<tr>
+<td style="text-align:center">!fmove</td>
+<td style="text-align:center">Moves targeted player inmediatly to the opposite team</td>
+</tr>
+<tr>
+<td style="text-align:center">!accept</td>
+<td style="text-align:center">The in-game command used for accepting reports as confirmed.</td>
+</tr>
+<tr>
+<td style="text-align:center">!pull</td>
+<td style="text-align:center">Forces the targeted player into your squad</td>
+</tr>
+<tr>
+<td style="text-align:center">!join</td>
+<td style="text-align:center">Joins the squad of the targeted player</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="4-admins">4 Admins</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>User</strong></th>
+<th style="text-align:center"><strong>Accounts</strong></th>
+<th style="text-align:center"><strong>Power level</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Matti</td>
+<td style="text-align:center">- MattiBoss999_TTV <p> -BetterGamer </p><p> -MattiBoss9999</p></td>
+<td style="text-align:center">Owner</td>
+</tr>
+<tr>
+<td style="text-align:center">Hydraz</td>
+<td style="text-align:center">-Synthogy <p> -1bicmitchum </p><p> -1hydraz </p><p> -SynthGoLive</p></td>
+<td style="text-align:center">FULL ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">Hawx</td>
+<td style="text-align:center">-Zunnni</td>
+<td style="text-align:center">FULL ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">Dalton</td>
+<td style="text-align:center">-daltonfreak</td>
+<td style="text-align:center">FULL ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">GiX</td>
+<td style="text-align:center">-The_GiiiiiiiiiX</td>
+<td style="text-align:center">FULL ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">Calypso</td>
+<td style="text-align:center">-That_Calypso-Guy</td>
+<td style="text-align:center">FULL ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">Paul</td>
+<td style="text-align:center">-ManuaIWheeIchair <p> -69Minecrafter187</p></td>
+<td style="text-align:center">FULL ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">vITNE</td>
+<td style="text-align:center">-PapaBeard42069xD <p> -IntrovertPepega </p><p> -CurIyloop</p><p></p></td>
+<td style="text-align:center">Papa beard</td>
+</tr>
+<tr>
+<td style="text-align:center">Chaost</td>
+<td style="text-align:center">-Jumpfield4 <p> -WasheddUpJumper </p><p> -TheWaitingRoom1</p><p> -Bf4CauseLockdown</p></td>
+<td style="text-align:center">BUDGET ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">Pedro</td>
+<td style="text-align:center">-DaddyPxdro</td>
+<td style="text-align:center">BUDGET ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">Elijot</td>
+<td style="text-align:center">-HalalMyMain</td>
+<td style="text-align:center">BUDGET ADMIN</td>
+</tr>
+<tr>
+<td style="text-align:center">lHawkee</td>
+<td style="text-align:center">-IHawkee <p> -T13_Booomer</p></td>
+<td style="text-align:center">BUDGET ADMIN</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Respect the hierarchy</li>
+<li>The order of the same power level doesn't really matter but you get the idea</li>
+<li>OWNER &gt; FULL ADMIN &gt; PAPA BEARD &gt; BUDGET ADMIN</li>
+</ul>
+<h2 class="mume-header" id="5-punishments">5 Punishments</h2>
+
+<blockquote>
+<p><strong>1</strong>  Ignoring these specified rules can get you kicked from the Server<br>
+<strong>2</strong>  Repeatedly violating these rules might even get you temp banned<br>
+<strong>3</strong>  Matti always has the last word.</p>
+</blockquote>
+<h2 class="mume-header" id="6-banning">6 Banning</h2>
+
+<h3 class="mume-header" id="6-1-cheaters">6-1 Cheaters</h3>
+
+<p>This is somewhat a guideline as we don't run any anti cheat for obvious reasons. I'm a forgiving person, i give DB banned people a 2nd chance here. If however that trust is violated the chances of u getting a unban is nearly non existent. (This applies to all cheaters)</p>
+<p>Rage hackers and obvious cheaters can be deported instantly. If however it's subtle or you suspect someone to be cheating.</p>
+<blockquote>
+<p><strong>1</strong>  Check BF4DB<br>
+<strong>2</strong> Check stats etc<br>
+<strong>If</strong> you are convinced DM Matti. I'll be the deciding factor.</p>
+</blockquote>
+<h3 class="mume-header" id="6-2-ban-appeals">6-2 Ban appeals</h3>
+
+<p>The person that banned the victim will be the deciding factor in a unban. Rage bans handed out will probably get unbanned by me whenever i check the ban list.<br>
+The ban appeals is also what usually keeps all of you entertained so yes have fun.</p>
+<p><strong>In case of an actual cheater</strong></p>
+<p>Give them a 2nd chance but once that's violated well hahahahahahahahah gone. It also depends on how bad it was.</p>
+<h3 class="mume-header" id="6-3-anticheat-script">6-3 Anticheat Script</h3>
+
+<p>This will catch most rage hackers. The way it works it checks "DPS", "HSKR" and "KPM". If you get banned for it just dm i'll whitelist. It's somewhat adjusted to high stats but it could happen it still bans.</p>
+<p><em>Happy farming 😃</em></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

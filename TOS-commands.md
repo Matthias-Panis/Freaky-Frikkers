@@ -1,5 +1,5 @@
 ![BF4 LOGO](../Freaky-Frikkers/Images/BF4.png)
-# Freaky Frikkers TOS/commands
+# Freaky Frikkers TOS
 
 [1.1 Rules for FULL ADMINS](#1-1-rules)
 
@@ -140,7 +140,7 @@ As full admin you won't be affected by any weapon rule apposed to the weapon enf
 ## 3 BUDGET ADMINS
 ### 3-1 Rules
 
-Same rules as [1 Rules for FULL ADMINS](#1-rules-for-full-admins) except you guys lack the ability of changing maps and ticket counts.
+Same rules as [Rules for FULL ADMINS](#1-1-rules) except you guys lack the ability of changing maps and ticket counts.
 
 - Respect the full admins they are above you and thus have more power.
 
@@ -181,9 +181,9 @@ The following commands are available to you:
 
 ## 5 Punishments
 
-- Ignoring these specified rules can get you kicked from the Server
-- Repeatedly violating these rules might even get you temp banned
-- Matti always has the last word.
+>   **1**  Ignoring these specified rules can get you kicked from the Server
+>   **2**  Repeatedly violating these rules might even get you temp banned
+>   **3**  Matti always has the last word.
 
 ## 6 Banning
 ### 6-1 Cheaters
@@ -191,9 +191,9 @@ The following commands are available to you:
 This is somewhat a guideline as we don't run any anti cheat for obvious reasons. I'm a forgiving person, i give DB banned people a 2nd chance here. If however that trust is violated the chances of u getting a unban is nearly non existent. (This applies to all cheaters)
 
 Rage hackers and obvious cheaters can be deported instantly. If however it's subtle or you suspect someone to be cheating.
-  - Check BF4DB
-  - Check stats etc
-If you're convinced DM Matti. I'll be the deciding factor.
+>   **1**  Check BF4DB
+>   **2** Check stats etc
+**If** you are convinced DM Matti. I'll be the deciding factor.
 
 ### 6-2 Ban appeals
 
