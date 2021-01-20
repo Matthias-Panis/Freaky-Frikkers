@@ -1,3 +1,4 @@
+![BF4 LOGO](../Freaky-Frikkers/Images/BF4.png)
 # Freaky Frikkers TOS/commands
 
 [1.1 Rules for FULL ADMINS](#1-1-rules)
@@ -80,6 +81,9 @@
 | /restart   | Restarts rounds<P> **Use this only in a empty server to switch to a seeding map** |
 
 ## 1-4 Adkats commands
+<P>
+
+![Adkats](../Freaky-Frikkers/Images/adkats.png)
 All commands can be found here: [Adkats](https://github.com/AdKats/AdKats)
 I'll be going over the more useful ones for u.
 
@@ -111,7 +115,7 @@ I'll be going over the more useful ones for u.
 There is the possibility to acces the admin control panel of adkats: [ACP](http://acp.mattiboss.8s.nl/)
 
 To register an account: [Register](https://acp.mattiboss.8s.nl/register)
-
+![ACP Regsiter](../Freaky-Frikkers/Images/acpregister.png)
 Once you have done that DM Matti#9999 so he can activate your account with the right permissions. Don't wait for an email to arrive since that function is broken.
 
 ## 1-6 Locker
@@ -169,7 +173,6 @@ The following commands are available to you:
 | Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | BUDGET ADMIN  |
 | Pedro  | -DaddyPxdro  | BUDGET ADMIN  |
 | Elijot | -HalalMyMain  |  BUDGET ADMIN |
-| Snurre | -SnurrexD  |  BUDGET ADMIN |
 | lHawkee   | -IHawkee <P> -T13_Booomer  | BUDGET ADMIN  |
 
 - Respect the hierarchy
