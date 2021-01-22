@@ -51,13 +51,12 @@ The following commands are available to you:
 | Matti | 	- MattiBoss999_TTV <P> -BetterGamer <P> -MattiBoss9999 | Owner   |
 | Hydraz  |  -Synthogy <p> -1bicmitchum <p> -1hydraz <P> -SynthGoLive| FULL ADMIN  |
 | Hawx  | -Zunnni  | FULL ADMIN |
-| Dalton |  -daltonfreak | FULL ADMIN |
-| GiX | -The_GiiiiiiiiiX  | FULL ADMIN  |
 | Calypso  | -That_Calypso-Guy  | FULL ADMIN  |
 | Paul   | -ManuaIWheeIchair <P> -69Minecrafter187  | FULL ADMIN   |
 | vITNE   |  -PapaBeard42069xD <P> -IntrovertPepega <p> -CurIyloop<P> | Papa beard  |
 | Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | BUDGET ADMIN  |
 | Pedro  | -DaddyPxdro  | BUDGET ADMIN  |
+| GiX | -The_GiiiiiiiiiX  | BUDGET ADMIN  |
 | Elijot | -HalalMyMain  |  BUDGET ADMIN |
 | lHawkee   | -IHawkee <P> -T13_Booomer  | BUDGET ADMIN  |
 
