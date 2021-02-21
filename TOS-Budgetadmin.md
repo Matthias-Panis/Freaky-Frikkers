@@ -58,7 +58,6 @@ The following commands are available to you:
 | vITNE   |  -PapaBeard42069xD <P> -IntrovertPepega <p> -CurIyloop<P> | Papa beard  |
 | Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | BUDGET ADMIN  |
 | Pedro  | -DaddyPxdro  | BUDGET ADMIN  |
-
 - Respect the hierarchy
 - The order of the same power level doesn't really matter but you get the idea
 - OWNER > FULL ADMIN > PAPA BEARD > BUDGET ADMIN
