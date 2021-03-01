@@ -44,13 +44,13 @@
 
 - Any conflict can be avoided by simply stating your intensions if you see someone already playing.
 
-- Be responsible with banning people. Idgaf about kicks, if people are annoying start with tban after that you could ban. Unless obvious cheaters they can get permd instantly. I'll mention adkats commands later.
+-Have a propper ban/kickreason as the playerbase is already small enough and we need all the dedicated players we can. Inpropper bans will be lifted. Basically use Kicks/Bans responsibly and with a propper reason. If youre having a bad day and tempted to rageban, best thing to do then is to ALT+F4 and cool down and wait for a better round.
 
-- Try to avoid to farm the server to dead mostly during the night if the server survives the night it's easy early farm for all of you.
+- Try to avoid to farm the server to death mostly during the night if the server survives the night it's easy early farm for all of you.
 - Don't play 24/7 you're not alone.
-- **Vehicle peace** or **air peace** won't be tolerated anymore. It is nice to both farm but it can kill a server real quick. If i or other FULL ADMINS see it happening you risk getting kicked.
+- **Vehicle peace** or **air peace** won't be tolerated anymore. It is nice to both farm but it can kill a server real quick. If i or other FULL ADMINS see it happening you risk getting kicked or tempbanned.
 - Be reasonable, don't let your hatred or lack of skill get the better of you...
-
+- When the server is completely filled (64 players), there will be a 3 round cooldown on farming which applies to everyone. This will ensure that the server has a stable playerbase for the day. Violating this, will result in kick or worst case tempban.
 
 ## 1-2 Must read
 
@@ -106,9 +106,8 @@ I'll be going over the more useful ones for u.
 
 ## 1-5 ACP
 
-*This is only for FULL ADMINS, budget bois sorry but i won't activate your accounts.*
 
-There is the possibility to acces the admin control panel of adkats: [ACP](http://acp.mattiboss.8s.nl/)
+There is the possibility to access the admin control panel of adkats: [ACP](http://acp.mattiboss.8s.nl/)
 
 To register an account: [Register](https://acp.mattiboss.8s.nl/register)
 ![ACP Regsiter](../Freaky-Frikkers/Images/acpregister.png)
@@ -137,19 +136,19 @@ As full admin you won't be affected by any weapon rule apposed to the weapon enf
 |:--:|:--:|:--:|
 | Matti | 	- MattiBoss999_TTV <P> -BetterGamer <P> -MattiBoss9999 | Owner   |
 | Hydraz  |  -Synthogy <p> -1bicmitchum <p> -1hydraz <P> -SynthGoLive| FULL ADMIN  |
-| Hawx  | -Zunnni  | FULL ADMIN |
+| SlumpinPotato  | -DarkskinPotato <p> -CurlyLoop  | FULL ADMIN |
 | Dalton |  -daltonfreak | FULL ADMIN |
+| Pedro  | -DaddyPxdro  | FULL ADMIN  |
 | Calypso  | -That_Calypso-Guy  | FULL ADMIN  |
 | Paul   | -ManuaIWheeIchair <P> -69Minecrafter187  | FULL ADMIN   |
 | Senti   | -VoteKickSai  | FULL ADMIN  |
 | vITNE   |  -PapaBeard42069xD <P> -IntrovertPepega <p> -CurIyloop<P> | Papa beard  |
-| Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | BUDGET ADMIN  |
-| Pedro  | -DaddyPxdro  | BUDGET ADMIN  |
+| Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | VIP  |
 
 
 - Respect the hierarchy
 - The order of the same power level doesn't really matter but you get the idea
-- OWNER > FULL ADMIN > PAPA BEARD > BUDGET ADMIN
+- OWNER > FULL ADMIN > PAPA BEARD > VIP
 
 ## 4 Punishments
 
@@ -169,7 +168,7 @@ Rage hackers and obvious cheaters can be deported instantly. If however it's sub
 
 ### 5-2 Ban appeals
 
-The person that banned the victim will be the deciding factor in a unban. Rage bans handed out will probably get unbanned by me whenever i check the ban list.
+SlumpinPotato and other admininputs will be the deciding factor in a unban. Rage bans handed out will probably get unbanned by me whenever i check the ban list.
 The ban appeals is also what usually keeps all of you entertained so yes have fun.
 
 **In case of an actual cheater**
