@@ -35,9 +35,9 @@ The following commands are available to you:
 
 | **Command** | **Description** |
 |:--:|:--:|
-| !kill | Kills the targeted player  |
-| !kick | Kills the targeted player  |
-| !punish  | The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value.    |
+| !e | Kills the targeted player  |
+| !k | Kills the targeted player  |
+| !p  | The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value.    |
 | !mute | Mutes the targeted player for 1 round  |
 | !move | Moves targeted player to the opposite team when the player is dead |
 | !fmove | Moves targeted player inmediatly to the opposite team  |

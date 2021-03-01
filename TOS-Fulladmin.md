@@ -87,18 +87,18 @@ I'll be going over the more useful ones for u.
 
 | **Command** | **Description** |
 |:--:|:--:|
-| !ban  | Permanently bans the targeted player  |
+| !b  | Permanently bans the targeted player  |
 | !tban 60  | Temp-Ban 1 hour	  |
 | !tban 120  | Temp-Ban 2 hour  |
 | !tban day   |  Temp-Ban 1 Day |
 | !tban week  |  Temp-Ban 1 Week |
 | !tban month  | Temp-Ban 1 Month	|
-| !kick   | Kicks the targeted player  |
-| !kill   | Kills the targeted player  |
+| !k   | Kicks the targeted player  |
+| !e   | Kills the targeted player  |
 | !move   | Moves targeted player to the opposite team when the player is dead |
 | !fmove   | Moves targeted player inmediatly to the opposite team  |
 | !mute   | Mutes the targeted player for 1 round  || !nuke   | Nukes the targeted team for x seconds  |
-| !punish   |  The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value. |
+| !p   |  The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value. |
 | !accept   |  The in-game command used for accepting reports as confirmed. |
 | !reportlist   |  The in-game command used to get the latest 6 unanswered round reports. |
 | !pull   | Forces the targeted player into your squad  |
