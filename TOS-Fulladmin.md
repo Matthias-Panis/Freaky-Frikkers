@@ -62,14 +62,24 @@
 
 
 ## 1-3 ProconRulz commands
+
+*Advantage of using proconRulz is that your name doesn't get mentioned.*
+
 | **Command** | **Description** |
 |:--:|:--:|
 | /tickets | Change tickets for the next round. This value can be between 50 and 400 (%) of the normal ticket count. (400 will be 3200 tickets). |
 | /3200   | Will straight up set the tickets to the max value that being 3200 tickets for the next round.  |
 | /vdisable   | This will turn off votemap for one round.|
 | /venable   | This will turn on votemap.|
+| /ldisable   | This will turn off loadout enforcer for one round  |
+| /lenable   | This will turn on loadout enforcer for one round (depending on the time this will be done automatically)  |
 | /yt   | Announces Matti's youtube channel in chat with link  |
 | /ttv   | Announces Matti's twitch channel in chat with link  |
+| /b   | (or !b). Bans specified player |
+| /k   | (or !k). Kicks specified player  |
+| /e   | (or !e). Kills (elminates) specified player  |
+| /bully   | Be responsibible with this command as it kills on spawn infinitely   |
+| /stopbully   | Stops bullying your victims   |
 | /mapname  |  Sets the next map to "mapname" conquest large. This will also disable votemap to prevent the next map being overwritten. (Votemap gets enabled on next round automatically). <P> The following mapnames are possible: <P> /siege: Siege of Shanghai CQL <P> /lancang: Lancang Dam CQL <p> /hainan: Hainan resort CQL <p> /golmud: Golmud Railway CQL <P> /rogue: Rogue Transition CQL <P> /dawn: Dawnbreaker CQL <P> /zavod: Zavod 311 CQL <P> /paracel: Paracel Storm CQL <P> /locker: Operation Locker CQL <p> /rsiege: Siege of Shanghai RUSH <P> /rdawn: Dawnbreaker RUSH <P> /rlocker: Operation Locker RUSH <p> /rparacel: Paracel Storm RUSH|
 | /nextmap   | Runs next round<P> **Use this only in a empty server to switch to a seeding map**  |
 | /restart   | Restarts rounds<P> **Use this only in a empty server to switch to a seeding map** |
@@ -87,18 +97,17 @@ I'll be going over the more useful ones for u.
 
 | **Command** | **Description** |
 |:--:|:--:|
-| !b  | Permanently bans the targeted player  |
 | !tban 60  | Temp-Ban 1 hour	  |
 | !tban 120  | Temp-Ban 2 hour  |
 | !tban day   |  Temp-Ban 1 Day |
 | !tban week  |  Temp-Ban 1 Week |
 | !tban month  | Temp-Ban 1 Month	|
-| !k   | Kicks the targeted player  |
-| !e   | Kills the targeted player  |
+| !kick   | Kicks the targeted player  |
+| !kill   | Kills the targeted player  |
 | !move   | Moves targeted player to the opposite team when the player is dead |
 | !fmove   | Moves targeted player inmediatly to the opposite team  |
 | !mute   | Mutes the targeted player for 1 round  || !nuke   | Nukes the targeted team for x seconds  |
-| !p   |  The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value. |
+| !punish   |  The in-game command used for punishing players. Will add a Punish record to the database, increasing a player's total points according to your settings, and issue the configured action for that point value. |
 | !accept   |  The in-game command used for accepting reports as confirmed. |
 | !reportlist   |  The in-game command used to get the latest 6 unanswered round reports. |
 | !pull   | Forces the targeted player into your squad  |
@@ -135,20 +144,15 @@ As full admin you won't be affected by any weapon rule apposed to the weapon enf
 | **User** | **Accounts** | **Power level** |
 |:--:|:--:|:--:|
 | Matti | 	- MattiBoss999_TTV <P> -BetterGamer <P> -MattiBoss9999 | Owner   |
-| Hydraz  |  -Synthogy <p> -1bicmitchum <p> -1hydraz <P> -SynthGoLive| FULL ADMIN  |
+| Hydraz  |  -Synthogy <p> -1bicmitchum <p> -1hydraz <P> -Zunni| FULL ADMIN  |
 | SlumpinPotato  | -DarkskinPotato <p> -CurlyLoop  | FULL ADMIN |
 | Dalton |  -daltonfreak | FULL ADMIN |
 | Pedro  | -DaddyPxdro  | FULL ADMIN  |
 | Calypso  | -That_Calypso-Guy  | FULL ADMIN  |
 | Paul   | -ManuaIWheeIchair <P> -69Minecrafter187  | FULL ADMIN   |
-| Senti   | -VoteKickSai  | FULL ADMIN  |
-| vITNE   |  -PapaBeard42069xD <P> -IntrovertPepega <p> -CurIyloop<P> | Papa beard  |
-| Chaost   | -Jumpfield4 <P> -WasheddUpJumper <P> -TheWaitingRoom1<P> -Bf4CauseLockdown  | VIP  |
+| Slave-Data   | -Slave-Data <P> -dArKwEbSkI | FULL ADMIN  |
+| vITNE (The jew)  |  -PapaBeard42069xD <P> -IntrovertPepega <p> -CurIyloop<P> | Papa beard  |
 
-
-- Respect the hierarchy
-- The order of the same power level doesn't really matter but you get the idea
-- OWNER > FULL ADMIN > PAPA BEARD > VIP
 
 ## 4 Punishments
 
